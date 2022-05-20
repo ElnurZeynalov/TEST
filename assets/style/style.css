@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.info {
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+#Timer {
+    position: absolute;
+    right: 30px;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: rgb(25, 121, 199);
+    color: white;
+    padding: 0 20px;
+    border-radius: 40%;
+}
+
+.Page1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Page1 input {
+    width: 240px;
+    height: 35px;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+
+.Page1 button {
+    background-color: green;
+    width: 240px;
+    height: 40px;
+    margin-top: 30px;
+    border: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.Page1 button:hover {
+    background-color: rgb(1, 158, 1);
+}
+
+.Page2 {
+    display: none;
+}
+
+.Page3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    display: none;
+}
+
+.Page3 button {
+    background-color: green;
+    width: 240px;
+    height: 40px;
+    margin-top: 30px;
+    border: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.Page3 button:hover {
+    background-color: rgb(1, 158, 1);
+}
+
+#QustionNum {
+    position: absolute;
+    left: 50%;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#QuestionFlag {
+    margin: auto;
+    margin-top: 60px;
+    width: 24%;
+    height: 300px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.choices {
+    margin: auto;
+    width: 24%;
+}
+
+li {
+    list-style: none;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.true {
+    background-color: rgb(0, 218, 0);
+}
+
+.false {
+    background-color: rgb(214, 0, 0);
+}
