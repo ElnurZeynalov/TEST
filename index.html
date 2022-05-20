@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <div class="Page1">
+        <div>
+            <input type="number" id="time" placeholder="Time" required>
+            <input type="number" id="questioncount" placeholder="number of questions" required>
+        </div>
+        <button id="Start">Start</button>
+    </div>
+    <div class="Page2">
+        <div class="info">
+            <div id="QustionNum"></div>
+            <div id="Timer"></div>
+        </div>
+        <div id="QuestionFlag"></div>
+        <div class="choices">
+            <ul id="ChoiseList">
+            </ul>
+        </div>
+    </div>
+    <div class="Page3">
+        <p>Your total correct answer</p>
+        <p id="Correctanswer"></p>
+        <button id="Again">Again</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
